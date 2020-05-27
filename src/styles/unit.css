@@ -1,0 +1,67 @@
+/* viewgroup */
+
+#app-property-unit-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+}
+
+.app-property-unit-header {
+    display: flex;
+    width: 100%;
+    color: #777;
+    font-size: 1.175em;
+    font-weight: 500;
+}
+
+.app-property-unit-header .title {
+    background: #ececec;
+    padding: 14px;
+    flex-grow: 1;
+    min-height: 26px;
+}
+
+.app-property-unit-header .status {
+    font-weight: 600;
+    background: #ececec;
+    padding: 14px;
+}
+
+.status.Available {
+    color: #4eaa64;
+}
+
+.status.Unavailable {
+    color: #6c6c6c;
+}
+
+.status.Priority {
+    color: #c75b5b;
+}
+
+.app-property-unit-header .ext {
+    text-align: center;
+    background: #e2e2e2;
+    padding: 14px;
+    font-weight: 700;
+    font-size: 0.98em;
+    width: 20px;
+}
+
+.app-property-unit-header .ext:hover {
+    background: #d4d4d4;
+    color: #555;
+    cursor: pointer;
+    user-select: none;
+}
+
+.app-property-unit-header .ext:active {
+    filter: saturate(135%) brightness(95%);
+}
+
+.app-property-unit-body {
+    background: #f5f5f5;
+    color: #808080;
+    padding: 16px 14px;
+    font-size: 1.18em;
+}

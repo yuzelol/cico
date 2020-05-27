@@ -1,0 +1,26 @@
+.app-search-container {
+    width: 50%;
+}
+
+.app-search {
+    height: 50px;
+    width: 100%;
+    padding-left: 58px;
+    outline: 0;
+    border: 0;
+    border-bottom: 4px solid #e2e2e2;
+    background: #ececec;
+    font-size: 1.5em;
+    color: #898989;
+    pointer-events: auto;
+}
+
+.app-search::placeholder {
+    color: #898989;
+}
+
+.app-search-icon {
+    position: absolute;
+    left: 14px;
+    top: 11px;
+}

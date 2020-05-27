@@ -1,0 +1,65 @@
+/* viewHistory */
+
+#app-property-unit-history {
+    background: #f5f5f5;
+    height: 100%;
+    overflow: none;
+    min-height: 0;
+}
+
+.app-history-row {
+    font-size: 1em;
+    display: flex;
+    padding: 14px 15px;
+    color: #888;
+    user-select: none;
+}
+
+.app-history-row:hover {
+    cursor: pointer;
+    background: #ececec;
+    color: #555;
+}
+
+.app-history-row:active {
+    filter: saturate(135%) brightness(95%);
+}
+
+.app-history-row .date {
+    width: 140px;
+    font-weight: 600;
+}
+
+.app-history-row .text {
+    width: 100%;
+}
+
+.app-history-container {
+    height: calc(100% - 54px);
+    overflow: auto;
+}
+
+/* viewNote */
+
+.app-note-container {
+    box-sizing: border-box;
+    display: flex;
+    height: calc(100% - 52px);
+    flex-direction: column;
+    padding: 14px;
+    padding-bottom: 18px;
+    color: #858585;
+}
+
+.app-note-details {
+    flex-grow: 1;
+    font-size: 1.18em;
+}
+
+.app-note-textarea-container {
+    height: calc(100% - 72px);
+}
+
+.app-note-info-row {
+    display: flex;
+}

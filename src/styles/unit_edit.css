@@ -1,0 +1,96 @@
+/* date */
+
+.app-edit-date-container {
+    display: flex;
+}
+
+.app-edit-input-container {
+    width: 50%;
+}
+
+.app-edit-input-container input {
+    cursor: pointer;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1.27em;
+    border-bottom: 2px solid #848484;
+    padding: 6px 0 10px 0;
+}
+
+.app-edit-input-container input::-webkit-datetime-edit-day-field {
+    letter-spacing: 1px;
+    padding-right: 5px;
+}
+
+.app-edit-input-container input::-webkit-datetime-edit-month-field {
+    letter-spacing: 1px;
+    padding-left: 7px;
+    padding-right: 4px;
+}
+
+.app-edit-input-container input::-webkit-datetime-edit-year-field {
+    letter-spacing: 1px;
+    padding-left: 7px;
+}
+
+.app-edit-input-container input::-webkit-datetime-edit-day-field:focus, .app-edit-input-container input::-webkit-datetime-edit-month-field:focus, .app-edit-input-container input::-webkit-datetime-edit-year-field:focus, .app-edit-input-container input::-webkit-datetime-edit-day-field:hover, .app-edit-input-container input::-webkit-datetime-edit-month-field:hover, .app-edit-input-container input::-webkit-datetime-edit-year-field:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+/* input green vs red */
+
+.app-edit-input-container.a:focus, .app-edit-input-container.a:hover, .app-edit-input-container.a input:hover {
+    color: #4dab64;
+    border-color: #4dab64;
+}
+
+.app-edit-input-container.b:focus, .app-edit-input-container.b:hover, .app-edit-input-container.b input:hover {
+    color: #c75b5b;
+    border-color: #c75b5b;
+}
+
+/* isPriority */
+
+/* .app-edit-input-container.b.isPriority, .app-edit-input-container.b.isPriority, .app-edit-input-container.b.isPriority input {
+    font-weight: 400;
+    color: #c75b5b;
+    border-color: #c75b5b;
+} */
+
+/* input mods */
+
+.app-edit-input-container input::-webkit-inner-spin-button, .app-edit-input-container input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.app-edit-input-container input::-webkit-clear-button {
+    display: none;
+}
+
+/* note */
+
+.app-edit-note-label {
+    position: absolute;
+    font-size: 0.9em;
+    padding: 10px 14px;
+    color: #8D8D8D;
+}
+
+.app-edit-note-textarea {
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: 0.9em;
+    padding: 10px 14px 10px 70px;
+    resize: none;
+    height: 92px;
+}

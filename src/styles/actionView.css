@@ -1,0 +1,5 @@
+#app-action-container {
+    width: 50%;
+    background: white;
+    pointer-events: auto;
+}

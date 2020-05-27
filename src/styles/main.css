@@ -1,0 +1,8 @@
+main{
+    display: flex;
+    position: fixed;
+    width: 1048px;
+    height: calc(100vh - 158px);
+    top: 158px;
+    pointer-events: none;
+  }

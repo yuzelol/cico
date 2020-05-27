@@ -1,0 +1,15 @@
+#app-user{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    color: #aaa;
+    font-weight: 600;
+    font-size: 1.1em;
+    cursor: pointer;
+    user-select: none;
+}
+#app-user:hover{
+    filter: invert(58%) sepia(16%) saturate(1302%) hue-rotate(82deg) brightness(96%) contrast(89%);
+}
